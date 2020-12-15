@@ -1,13 +1,13 @@
-#Sentiment Analysis using Scikit-Learn
-##Introduction
-This project details how machine learning can be used to classify Amazon reviews as having positive or negative sentiment. in addition, it explores the pre-processing steps involved with text classification.
+# Sentiment Analysis using Scikit-Learn
+## Introduction
+This project details how machine learning can be used to classify Amazon reviews as having positive or negative sentiment. In addition, it explores the pre-processing steps involved with text classification.
 
 My goal was to learn more about natural language processing and preparing text data for machine learning. Also, I wanted to see how preprocessing affects a machine learning model's accuracy.
 ## Selection of Data
 The data has 1000 samples of excerpts from Amazon reviews with sentiment labels (positive or negative). Half of the samples are positive and half are negative. The dataset can be found on the UCI Machine Learning Repository [1].
 
 The objective is to label each text as having positive or negative sentiment.
-###Preview of Data
+### Preview of Data
 ```
 So there is no way for me to plug it in here in the US unless I go by a converter.	0
 Good case, Excellent value.	1
@@ -50,7 +50,7 @@ def preprocess_text(text):
 ```
 ## Methods
 The tools I used include:
-- nltk for tokenization
+- nltk for tokenization and lemmatization
 - symspellpy for spelling correction
 - Pandas and scikit-learn for machine learning
 
